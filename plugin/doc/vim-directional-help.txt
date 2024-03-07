@@ -1,0 +1,53 @@
+*vim-directional-help.txt*  Last change: 2024-03-07
+
+VIM DIRECTIONAL HELP                                              *vim-directional-help*
+
+Introduction~
+This Vim plugin enhances the help system by allowing the user to open help documentation in various directions relative to the current window layout or in a new, focused tab. It aims to make accessing help files more convenient and adaptable to different working environments.
+
+Installation~
+To install vim-directional-help, use your preferred Vim package manager or clone the repository directly into your Vim plugin directory.
+
+    git clone https://github.com/jam1015/vim-directional-help.git ~/.vim/pack/plugins/start/vim-directional-help
+
+Commands~
+Here are the commands provided by vim-directional-help:
+
+    Lelp    Opens help to the left.     |vim-directional-help-Lelp|
+    Relp    Opens help to the right.    |vim-directional-help-Relp|
+    Telp    Opens help above.           |vim-directional-help-Telp|
+    Belp    Opens help below.           |vim-directional-help-Belp|
+    Olp     Opens help in a new tab and focuses on it exclusively. |vim-directional-help-Olp|
+    HCW     Opens help in a new buffer with help buftype, in the current window. |vim-directional-help-HCW|
+
+Abbreviations~
+The above commands have the following command line abbreviations:
+
+    lelp -> Lelp
+    relp -> Relp
+    telp -> Telp
+    belp -> Belp
+    olp -> Olp
+    hh -> HCW
+
+To use these abbreviations, simply type the abbreviation in Vim's command line mode (preceded by ':'), and it will automatically be expanded to the full command name, executing the associated action.
+
+License~
+This code is released under a modified "unlicense" that excepts the line taken from StackOverflow. See the LICENSE file. |vim-directional-help-license|
+
+Credits~
+Special thanks to the Stack Overflow answer that inspired part of this plugin's functionality. The relevant code is licensed under CC BY-SA 3.0:
+
+    https://stackoverflow.com/a/26431632/5879985
+
+==============================================================================
+CONTENTS                                                   *vim-directional-help-contents*
+
+      1. Introduction
+      2. Installation
+      3. Commands
+      4. Abbreviations
+      5. License
+      6. Credits
+
+vim:tw=78:ts=8:ft=help:norl:
